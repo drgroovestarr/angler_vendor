@@ -51,14 +51,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     com.google.widevine.software.drm \
     qcrilhook
-PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/bin/dsm_ctrl:system/bin/dsm_ctrl \
-    vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so
 
 PRODUCT_PACKAGES += \
-    ims
+    ims \
+    TimeService
