@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.experimental2016.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/angler/proprietary/etc/sysconfig/angler_common.xml:system/etc/sysconfig/angler_common.xml \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
