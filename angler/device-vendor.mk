@@ -29,15 +29,16 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    AndroidPlatformServices \
     atfwd \
     CallStatistics \
-    Entitlement \
     CarrierServices \
     CNEService \
     ConnMO \
     DCMO \
     DiagMon \
     DMService \
+    Entitlement \
     GCS \
     HiddenMenu \
     HotwordEnrollmentWCD9330 \
