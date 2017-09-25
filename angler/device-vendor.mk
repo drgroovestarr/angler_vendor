@@ -16,14 +16,12 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    CompanionDeviceManager \
-    CarrierDefaultApp \
     HwMMITest \
     HwSarControlService \
     ims \
     SetupSmartDeviceOverlay \
     TimeService \
-    Tycho
+    Tycho 
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -34,8 +32,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidPlatformServices \
     atfwd \
-    CarrierConfig \
-    CarrierSetup \
     CallStatistics \
     CarrierServices \
     CNEService \

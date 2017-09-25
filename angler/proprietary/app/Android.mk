@@ -17,24 +17,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),angler)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CarrierDefaultApp
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := CarrierDefaultApp/CarrierDefaultApp.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CompanionDeviceManager
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := CompanionDeviceManager/CompanionDeviceManager.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := HwMMITest
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := HwMMITest/HwMMITest.apk
