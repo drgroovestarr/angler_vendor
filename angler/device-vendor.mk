@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
     CallStatistics \
     CarrierServices \
     CarrierSetup \
-    ConfigUpdater \
+    #ConfigUpdater \
     ConnMO \
     DCMO \
     DMService \
